@@ -1,0 +1,39 @@
+{
+  "name": "StudentProfile",
+  "type": "object",
+  "properties": {
+    "full_name": {
+      "type": "string"
+    },
+    "student_id_number": {
+      "type": "string"
+    },
+    "university": {
+      "type": "string"
+    },
+    "department": {
+      "type": "string"
+    },
+    "year_of_study": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "id_photo_url": {
+      "type": "string"
+    },
+    "profile_photo_url": {
+      "type": "string"
+    },
+    "verified": {
+      "type": "boolean",
+      "default": false
+    }
+  },
+  "required": [
+    "full_name",
+    "student_id_number",
+    "university"
+  ]
+}

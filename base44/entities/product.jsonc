@@ -1,0 +1,64 @@
+{
+  "name": "Product",
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string",
+      "enum": [
+        "Electronics",
+        "Books & Notebooks",
+        "Stationery",
+        "Hygiene & Personal Care",
+        "Bags",
+        "Snacks & Drinks",
+        "Other"
+      ]
+    },
+    "price": {
+      "type": "number"
+    },
+    "image_url": {
+      "type": "string"
+    },
+    "producer_name": {
+      "type": "string"
+    },
+    "producer_type": {
+      "type": "string",
+      "enum": [
+        "Local Producer",
+        "Wholesaler",
+        "Student Seller",
+        "Merchant"
+      ]
+    },
+    "stock": {
+      "type": "number",
+      "default": 1
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "approved",
+        "pending",
+        "restricted"
+      ],
+      "default": "approved"
+    },
+    "is_featured": {
+      "type": "boolean",
+      "default": false
+    }
+  },
+  "required": [
+    "title",
+    "category",
+    "price"
+  ]
+}

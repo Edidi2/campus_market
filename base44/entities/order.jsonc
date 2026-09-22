@@ -1,0 +1,67 @@
+{
+  "name": "Order",
+  "type": "object",
+  "properties": {
+    "student_name": {
+      "type": "string"
+    },
+    "student_id_number": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "items": {
+      "type": "string"
+    },
+    "total": {
+      "type": "number"
+    },
+    "delivery_location": {
+      "type": "string"
+    },
+    "delivery_zone": {
+      "type": "string"
+    },
+    "delivery_provider": {
+      "type": "string"
+    },
+    "delivery_status": {
+      "type": "string",
+      "enum": [
+        "pending",
+        "assigned",
+        "in_transit",
+        "delivered"
+      ],
+      "default": "pending"
+    },
+    "payment_method": {
+      "type": "string",
+      "enum": [
+        "tele_birr",
+        "Cbe",
+        "M-pesa",
+        "other_bank",
+        "cash_on_delivery"
+      ],
+      "default": "tele_birr"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "placed",
+        "confirmed",
+        "delivered",
+        "cancelled"
+      ],
+      "default": "placed"
+    }
+  },
+  "required": [
+    "student_name",
+    "items",
+    "total",
+    "delivery_location"
+  ]
+}

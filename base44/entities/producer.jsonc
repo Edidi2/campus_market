@@ -1,0 +1,39 @@
+{
+  "name": "Producer",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string",
+      "enum": [
+        "Local Producer",
+        "Wholesaler",
+        "Student Seller",
+        "Merchant"
+      ]
+    },
+    "description": {
+      "type": "string"
+    },
+    "contact_phone": {
+      "type": "string"
+    },
+    "logo_url": {
+      "type": "string"
+    },
+    "rating": {
+      "type": "number",
+      "default": 5
+    },
+    "verified": {
+      "type": "boolean",
+      "default": false
+    }
+  },
+  "required": [
+    "name",
+    "type"
+  ]
+}

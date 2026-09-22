@@ -1,0 +1,38 @@
+{
+  "name": "Promotion",
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "image_url": {
+      "type": "string"
+    },
+    "sponsor": {
+      "type": "string"
+    },
+    "link_url": {
+      "type": "string"
+    },
+    "position": {
+      "type": "string",
+      "enum": [
+        "hero",
+        "banner",
+        "sidebar"
+      ],
+      "default": "banner"
+    },
+    "active": {
+      "type": "boolean",
+      "default": true
+    }
+  },
+  "required": [
+    "title",
+    "sponsor"
+  ]
+}
