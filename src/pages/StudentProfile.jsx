@@ -8,7 +8,7 @@ import { useToast } from "@/components/ui/use-toast";
 import ImageUpload from "@/components/ImageUpload";
 
 const UNIVERSITIES = ["ASTU", "Addis Ababa University", "Bahir Dar University", "Mekelle University", "Hawassa University"];
-const DEPARTMENTS = ["Computer Science", "Engineering", "Business", "Medicine", "Natural Sciences", "Other"];
+const DEPARTMENTS = ["Computer Science","Software Engineering", "Engineering", "Business", "Medicine", "Natural Sciences", "Other"];
 
 export default function StudentProfile() {
   const { toast } = useToast();
