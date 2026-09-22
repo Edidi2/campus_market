@@ -62,3 +62,5 @@ Local development: [https://docs.supabase.com/developers/backend/overview/local-
 Support: [https://app.supabase.com/support](https://app.supabase.com/support)
 
 video link how the system works: https://www.loom.com/share/d4282635f4f64de3b3d18de57e690cab
+
+full documentation link: https://docs.google.com/document/d/177ouMsuv3LfAqExwkKZNx-5ObpWdC7YtzmfVVs6kKa0/edit?usp=sharing
