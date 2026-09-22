@@ -10,7 +10,7 @@ import { Image } from "@/components/ui/image";
 import ImageUpload from "@/components/ImageUpload";
 import { formatBirr } from "@/utils";
 
-const CATEGORIES = ["Electronics", "Books & Notebooks", "Stationery", "Hygiene & Personal Care", "Bags", "Snacks & Drinks", "Other"];
+const CATEGORIES = ["Electronics", "Books & Notebooks", "Stationery", "Hygiene & Personal Care", "Bags", "Snacks & Drinks","Table & Chairs ", Other"];
 const PRODUCER_TYPES = ["Local Producer", "Wholesaler", "Student Seller", "Merchant"];
 
 export default function ProducerDashboard() {
